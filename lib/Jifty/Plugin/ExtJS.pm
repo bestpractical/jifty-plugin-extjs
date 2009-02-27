@@ -1,14 +1,14 @@
 use strict;
 use warnings;
 
+package Jifty::Plugin::ExtJS;
+use base qw/Jifty::Plugin/;
+
+our $VERSION = '0.01';
+
 =head1 NAME
 
 Jifty::Plugin::ExtJS - Use the Ext javascript library
-
-=cut
-
-package Jifty::Plugin::ExtJS;
-use base qw/Jifty::Plugin/;
 
 =head1 SYNOPSIS
 
